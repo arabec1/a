@@ -14,7 +14,7 @@ if(!empty($_POST["send"])) {
   $userEmail = $_POST["userEmail"];
 	$userPhone = $_POST["userPhone"];
 	$userMessage = $_POST["userMessage"];
-	$toEmail = "jlk75452@gmail.com";
+	$toEmail = "www.jlk75452@gmail.com";
   
 	$mailHeaders = "Name: " . $userName .
 	"\r\n Email: ". $userEmail  . 
